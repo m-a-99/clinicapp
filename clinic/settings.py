@@ -162,3 +162,4 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'ForDjangoTestUse@gmail.com'
 EMAIL_HOST_PASSWORD = 'rpejtiylykicnzgu'
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
